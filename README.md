@@ -21,7 +21,7 @@ Batch_size = 8, epoch = 40.
 ![Image alt](https://github.com/PavelPoukh/LAB2/blob/master/original%20file.png)
 
 Нейросеть 1:
- Добавиляем 1 полносвязный слой (filters=32 и kernel_size=3)
+ Добавляем 1 полносвязный слой (filters=32 и kernel_size=3)
 
         tf.keras.layers.Input(shape=(224,224,3)),
         tf.keras.layers.Conv2D(filters=8, kernel_size=3),
